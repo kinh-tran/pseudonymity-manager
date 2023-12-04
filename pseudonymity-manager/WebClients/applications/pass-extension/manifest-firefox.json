@@ -1,0 +1,82 @@
+{
+    "name": "Online Pseudonymity Manager",
+    "description": "Easily manage and assume fake identities online.",
+    "version": "1.8.4",
+    "manifest_version": 3,
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*", "http://*/*"],
+            "exclude_matches": [
+                "https://pass.proton.me/*",
+                "https://pass.proton.local/*",
+                "https://pass.proton.black/*",
+                "https://pass.proton.pink/*"
+            ],
+            "js": ["orchestrator.js"],
+            "all_frames": false,
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "https://*.proton.me/*",
+                "https://*.proton.black/*",
+                "https://*.proton.pink/*",
+                "https://*.proton.local/*"
+            ],
+            "js": ["account.js"],
+            "all_frames": false,
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "alarms",
+        "scripting",
+        "storage",
+        "unlimitedStorage",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation"
+    ],
+    "host_permissions": ["https://*/*", "http://*/*"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/assets/protonpass-icon-16.png",
+            "32": "/assets/protonpass-icon-32.png",
+            "48": "/assets/protonpass-icon-48.png",
+            "128": "/assets/protonpass-icon-128.png"
+        }
+    },
+    "icons": {
+        "16": "/assets/protonpass-icon-16.png",
+        "32": "/assets/protonpass-icon-32.png",
+        "48": "/assets/protonpass-icon-48.png",
+        "128": "/assets/protonpass-icon-128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "dropdown.html",
+                "notification.html",
+                "elements.js",
+                "assets/*.png",
+                "assets/*.svg",
+                "assets/*.woff",
+                "assets/*.woff2",
+                "styles/styles.control.css",
+                "styles/styles.root.css"
+            ],
+            "matches": ["https://*/*", "http://*/*"]
+        }
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "78272b6fa58f4a1abaac99321d503a20@proton.me",
+            "strict_min_version": "109.0"
+        }
+    }
+}

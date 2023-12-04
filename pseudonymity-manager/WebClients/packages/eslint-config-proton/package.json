@@ -1,0 +1,39 @@
+{
+    "name": "@proton/eslint-config-proton",
+    "description": "Modern eslint config for a more civilized age",
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "config",
+        "airbnb",
+        "javascript",
+        "styleguide",
+        "es2015",
+        "es2016",
+        "es2017",
+        "es2018"
+    ],
+    "license": "GPL-3.0",
+    "author": "Proton AG",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^6.12.0",
+        "@typescript-eslint/parser": "^6.12.0",
+        "eslint": "^8.54.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-airbnb-typescript": "^17.1.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-plugin-custom-rules": "workspace:packages/eslint-plugin-custom-rules",
+        "eslint-plugin-deprecation": "^2.0.0",
+        "eslint-plugin-es": "^4.1.0",
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-monorepo-cop": "^1.0.2",
+        "eslint-plugin-no-only-tests": "^3.1.0",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0"
+    },
+    "peerDependencies": {
+        "prettier": "3.x",
+        "typescript": "*"
+    }
+}

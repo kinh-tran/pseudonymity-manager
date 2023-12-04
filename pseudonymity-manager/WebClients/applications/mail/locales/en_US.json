@@ -1,0 +1,87 @@
+{
+  "headers": {
+    "plural-forms": "nplurals=2; plural=(n != 1);",
+    "language": "en_US"
+  },
+  "contexts": {
+    "Action": {
+      "Ok": [
+        "OK"
+      ],
+      "Toggle Contact app": [
+        "Toggle Contacts app"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "You can't send vCard files of more than ${ maxAttachments } contact",
+        "You can't send vCard files of more than ${ maxAttachments } contacts"
+      ]
+    },
+    "Description": {
+      "Automatically clear out messages older than 30 days from trash and spam. Enjoy this and other benefits when you upgrade.": [
+        "Automatically clear out messages that have been in Trash or Spam for over 30 days. Enjoy this and other benefits when you upgrade."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "To import via a CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }."
+      ]
+    },
+    "Error": {
+      "Require at least one action": [
+        "Add at least one action"
+      ],
+      "Require at least one condition": [
+        "Add at least one condition"
+      ],
+      "You have reached the contacts limit for your account": [
+        "You have reached the number of contacts limit for your account"
+      ]
+    },
+    "familyOffer_2023:Family plan": {
+      "Manage addresses.": [
+        "Manage addresses"
+      ]
+    },
+    "familyOffer_2023:Onboarding Proton": {
+      "Configure your family account and invite users ": [
+        "Configure your family account and invite users"
+      ]
+    },
+    "Filter option to only show message with attachments": {
+      "Has file": [
+        "Has attachments"
+      ]
+    },
+    "Info": {
+      "Contact unassigned to group ${ contactGroupName }": [
+        "Contact removed from ${ contactGroupName }"
+      ],
+      "file attached": [
+        "attachment",
+        "attachments"
+      ],
+      "Snoozed until  ${ dateString } at ${ formattedTime }": [
+        "Snoozed until ${ dateString } at ${ formattedTime }"
+      ],
+      "Turn off to only search by date, name, email address, or subject line. To disable search message content and delete downloaded messages, go to settings.": [
+        "Turn off to search only by date, name, email address, or subject line. To disable search message content (and delete messages downloaded to enable this feature), go to Settings."
+      ],
+      "Upgrade to automatically delete messages that have been in trash and spam for more than 30 days.": [
+        "Upgrade to automatically delete messages that have been in Trash or Spam for more than 30 days."
+      ]
+    },
+    "Label": {
+      "Synchronize with system": [
+        "Sync with system"
+      ]
+    },
+    "Oauth instructions video alternative": {
+      "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Agenda.": [
+        "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Calendar."
+      ]
+    },
+    "Tor out of date": {
+      "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
+        "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
+      ]
+    }
+  }
+}

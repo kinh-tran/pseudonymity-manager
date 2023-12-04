@@ -1,0 +1,26 @@
+{
+    "name": "proton-preview-sandbox",
+    "description": "Standalone isolated previewer for documents that runs in an iframe",
+    "license": "GPL-3.0",
+    "author": "Proton AG",
+    "main": "index.ts",
+    "scripts": {
+        "build": "cross-env NODE_ENV=production ./bin/build.js",
+        "check-types": "tsc",
+        "lint": "eslint src --ext .ts --cache",
+        "pretty": "prettier --write  $(find src -type f -name '*.ts')",
+        "test": "echo No tests yet"
+    },
+    "dependencies": {
+        "docx-preview": "^0.1.20"
+    },
+    "devDependencies": {
+        "@proton/eslint-config-proton": "workspace:packages/eslint-config-proton",
+        "browserslist-to-esbuild": "^1.2.0",
+        "cross-env": "^7.0.3",
+        "esbuild": "^0.19.7",
+        "eslint": "^8.54.0",
+        "prettier": "^3.1.0",
+        "typescript": "^5.3.2"
+    }
+}

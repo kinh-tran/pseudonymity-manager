@@ -1,0 +1,11 @@
+@import '~@proton/styles/scss/lib';
+
+.CodeMirror-lint-tooltip {
+	&#{&} {
+		z-index: $layer-tooltips;
+	}
+}
+
+.react-codemirror2 {
+	font-size: rem(14);
+}

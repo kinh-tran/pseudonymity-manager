@@ -1,0 +1,53 @@
+{
+  "headers": {
+    "plural-forms": "nplurals=2; plural=(n != 1);",
+    "language": "en_US"
+  },
+  "contexts": {
+    "Action": {
+      "Ok": [
+        "OK"
+      ],
+      "Toggle Contact app": [
+        "Toggle Contacts app"
+      ],
+      "You can't send vCard files of more than ${ maxAttachments } contacts": [
+        "You can't send vCard files of more than ${ maxAttachments } contact",
+        "You can't send vCard files of more than ${ maxAttachments } contacts"
+      ]
+    },
+    "Description": {
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "To import via a CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }."
+      ]
+    },
+    "Error": {
+      "You have reached the contacts limit for your account": [
+        "You have reached the number of contacts limit for your account"
+      ]
+    },
+    "familyOffer_2023:Family plan": {
+      "Manage addresses.": [
+        "Manage addresses"
+      ]
+    },
+    "familyOffer_2023:Onboarding Proton": {
+      "Configure your family account and invite users ": [
+        "Configure your family account and invite users"
+      ]
+    },
+    "Info": {
+      "Contact unassigned to group ${ contactGroupName }": [
+        "Contact removed from ${ contactGroupName }"
+      ],
+      "This will remove the synced device ${ deviceName } from ${ DRIVE_APP_NAME } and stop syncing folders you added to My Computers.": [
+        "This will remove the synced device ${ deviceName } from ${ DRIVE_APP_NAME } and stop syncing folders you added to Computers."
+      ]
+    },
+    "Oauth instructions video alternative": {
+      "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Agenda.": [
+        "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Calendar."
+      ]
+    }
+  }
+}

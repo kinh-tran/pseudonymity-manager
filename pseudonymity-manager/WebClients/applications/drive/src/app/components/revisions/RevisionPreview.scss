@@ -1,0 +1,10 @@
+@import '~@proton/styles/scss/lib';
+
+.revision-preview {
+	position: relative;
+	z-index: $layer-modals;
+
+	&--behind {
+		z-index: $layer-modals - 1;
+	}
+}

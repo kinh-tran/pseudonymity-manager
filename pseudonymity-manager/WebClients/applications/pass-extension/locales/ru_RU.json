@@ -1,0 +1,1592 @@
+{
+  "headers": {
+    "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);",
+    "language": "ru_RU"
+  },
+  "contexts": {
+    "Action": {
+      "Add": [
+        "Добавить"
+      ],
+      "Add domain to pause list": [
+        "Добавить домен в список приостановки"
+      ],
+      "Add more": [
+        "И ещё"
+      ],
+      "Add new item": [
+        "Добавить новый элемент"
+      ],
+      "Advanced": [
+        "Продвинутые"
+      ],
+      "Advanced options": [
+        "Расширенные настройки"
+      ],
+      "Back": [
+        "Назад"
+      ],
+      "Cancel": [
+        "Отменить"
+      ],
+      "Change": [
+        "Изменить"
+      ],
+      "Choose a file or drag it here": [
+        "Выберите файл или перетащите его сюда"
+      ],
+      "Clear": [
+        "Очистить"
+      ],
+      "Clear search": [
+        "Очистить поиск"
+      ],
+      "Close": [
+        "Закрыть"
+      ],
+      "Close advanced options": [
+        "Закрыть расширенные настройки"
+      ],
+      "Close navigation": [
+        "Закрыть панель навигации"
+      ],
+      "Confirm": [
+        "Подтвердить"
+      ],
+      "Continue": [
+        "Продолжить"
+      ],
+      "Copy and close": [
+        "Скопировать и закрыть"
+      ],
+      "Copy to clipboard": [
+        "Скопировать в буфер обмена"
+      ],
+      "Create": [
+        "Создать"
+      ],
+      "Create a ${ BRAND_NAME } account": [
+        "Создать аккаунт ${ BRAND_NAME }"
+      ],
+      "Create alias": [
+        "Создать псевдоним"
+      ],
+      "Create an account": [
+        "Создать аккаунт"
+      ],
+      "Create login": [
+        "Создать логин"
+      ],
+      "Create note": [
+        "Создать заметку"
+      ],
+      "Create vault": [
+        "Создать хранилище"
+      ],
+      "Creating vault": [
+        "Сохранение хранилища"
+      ],
+      "Customize": [
+        "Настроить"
+      ],
+      "Delete": [
+        "Удалить"
+      ],
+      "Delete alias": [
+        "Удалить псевдоним"
+      ],
+      "Delete all": [
+        "Удалить все"
+      ],
+      "Delete password": [
+        "Удалить пароль"
+      ],
+      "Delete permanently": [
+        "Удалить безвозвратно"
+      ],
+      "Delete vault": [
+        "Удалить хранилище"
+      ],
+      "Discard": [
+        "Сбросить"
+      ],
+      "Dismiss": [
+        "Отклонить"
+      ],
+      "Done": [
+        "Готово"
+      ],
+      "Edit": [
+        "Изменить"
+      ],
+      "Edit vault": [
+        "Редактировать хранилище"
+      ],
+      "Export": [
+        "Экспорт"
+      ],
+      "Feedback": [
+        "Обратная связь"
+      ],
+      "Fill password": [
+        "Заполнить пароль"
+      ],
+      "Filter vault items": [
+        "Фильтровать элементы хранилища"
+      ],
+      "Generate alias": [
+        "Сгенерировать псевдоним"
+      ],
+      "Generate password": [
+        "Создать пароль"
+      ],
+      "Get mobile apps": [
+        "Получить мобильные приложения"
+      ],
+      "Help us improve": [
+        "Помогите нам совершенствоваться"
+      ],
+      "Hide": [
+        "Скрыть"
+      ],
+      "How do I export my data from ${ PROVIDER_INFO_MAP[form.values.provider].title }?": [
+        "Как экспортировать или данные из${ PROVIDER_INFO_MAP[form.values.provider].title }?"
+      ],
+      "Import": [
+        "Импортировать"
+      ],
+      "Importing": [
+        "Идёт импорт"
+      ],
+      "Learn more": [
+        "Подробнее"
+      ],
+      "Leave": [
+        "Оставить"
+      ],
+      "Lock extension": [
+        "Заблокировать расширение"
+      ],
+      "Manually sync your data": [
+        "Синхронизировать ваши данные вручную"
+      ],
+      "More info: ${ safeTitle }": [
+        "Больше информации: ${ safeTitle }"
+      ],
+      "More options": [
+        "Дополнительные параметры"
+      ],
+      "Move to another vault": [
+        "Переместить в другое хранилище"
+      ],
+      "Move to Trash": [
+        "Переместить в корзину"
+      ],
+      "Move to trash": [
+        "Переместить в Корзину"
+      ],
+      "OK": [
+        "OK"
+      ],
+      "Open navigation": [
+        "Открыть панель навигации"
+      ],
+      "Pass for Android": [
+        "Pass для Android"
+      ],
+      "Pass for iOS": [
+        "Pass для iOS"
+      ],
+      "Refresh the page": [
+        "Обновить страницу"
+      ],
+      "Regenerate": [
+        "Перегенерировать"
+      ],
+      "Reload extension": [
+        "Перезагрузить расширение"
+      ],
+      "Remove": [
+        "Удалить"
+      ],
+      "Request a feature": [
+        "Запросить функцию"
+      ],
+      "Restore item": [
+        "Восстановить элемент"
+      ],
+      "Retry": [
+        "Повторить"
+      ],
+      "Save": [
+        "Сохранить"
+      ],
+      "Saving": [
+        "Сохранение"
+      ],
+      "Send us a message": [
+        "Отправить нам сообщение"
+      ],
+      "Share": [
+        "Поделиться"
+      ],
+      "Show": [
+        "Показать"
+      ],
+      "Sign back in": [
+        "Войти обратно"
+      ],
+      "Sign in": [
+        "Войти"
+      ],
+      "Sign in with ${ BRAND_NAME }": [
+        "Войти с ${ BRAND_NAME }"
+      ],
+      "Sign out": [
+        "Выйти"
+      ],
+      "Sort vault items": [
+        "Сортировать элементы хранилища"
+      ],
+      "Submit": [
+        "Отправить"
+      ],
+      "Submitting report...": [
+        "Отправка отчёта..."
+      ],
+      "Try again": [
+        "Попробовать снова"
+      ],
+      "Update": [
+        "Обновить"
+      ],
+      "Upgrade": [
+        "Улучшить"
+      ],
+      "Upgrade now": [
+        "Улучшить сейчас"
+      ],
+      "Write us on Reddit": [
+        "Написать нам в Reddit"
+      ],
+      "Write us on Twitter": [
+        "Написать нам в Twitter"
+      ]
+    },
+    "bf2023: Info": {
+      "Save Smart. Get a year of Pass Plus for only ${ relativePrice } per month.": [
+        "Экономьте с умом. Получите год Pass Plus всего за ${ relativePrice } в месяц."
+      ]
+    },
+    "bf2023: Label": {
+      "Get the deal": [
+        "Получить со скидкой"
+      ]
+    },
+    "bf2023: Title": {
+      "Black Friday offer": [
+        "Предложение Черная пятница"
+      ]
+    },
+    "Button": {
+      "More info": [
+        "Подробнее"
+      ]
+    },
+    "Collapsible tooltip": {
+      "Collapse": [
+        "Свернуть"
+      ],
+      "Expand": [
+        "Развернуть"
+      ]
+    },
+    "Error": {
+      "${ provider } file could not be parsed. ${ errorDetail }": [
+        "${ provider } не может быть обработан. ${ errorDetail }"
+      ],
+      "Alias options could not be resolved": [
+        "Параметры псевдонима не могут быть определены"
+      ],
+      "Authentication error": [
+        "Ошибка аутентификации"
+      ],
+      "Auto-lock could not be activated": [
+        "Автоблокировка не может быть активирована"
+      ],
+      "Auto-lock could not be disabled": [
+        "Автоблокировка не может быть выключена"
+      ],
+      "Cannot send invitation to this address at the moment": [
+        "Не могу отправить приглашение на этот адрес в данный момент."
+      ],
+      "Could not confirm this invite at the moment": [
+        "Не могу подтвердить приглашение в данный момент."
+      ],
+      "Could not leave vault.": [
+        "Не удалось покинуть хранилище."
+      ],
+      "Could not open created vault": [
+        "Не могу открыть созданное хранилище"
+      ],
+      "Could not open invited vault": [
+        "Не могу открыть приглашенное хранилище"
+      ],
+      "Could not open updated vault": [
+        "Не могу открыть обновлённое хранилище"
+      ],
+      "Could not resolve share members": [
+        "Не удалось сопоставить членов общего доступа"
+      ],
+      "CSV file is missing expected headers: ${ missingHeaders }": [
+        "В файле CSV отсутствуют ожидаемые заголовки: ${ missingHeaders }"
+      ],
+      "Decrypting your ${ PASS_APP_NAME } export file failed. ${ errorDetail }": [
+        "Сбой при расшифровке файл экспорта ${ PASS_APP_NAME }. ${ errorDetail }"
+      ],
+      "Deleting item failed": [
+        "Ошибка при удалении элемента"
+      ],
+      "Deleting vault \"${ payload.content.name }\" failed": [
+        "Сбой при удалении хранилища \"${ payload.content.name }\""
+      ],
+      "Detected ${ errors.length } corrupted csv row": [
+        "Обнаружена ${ errors.length } повреждённая строка в csv",
+        "Обнаружены ${ errors.length } повреждённые строки в csv",
+        "Обнаружено ${ errors.length } повреждённых строк в csv",
+        "Обнаружено ${ errors.length } повреждённых строк в csv"
+      ],
+      "Editing item failed": [
+        "Ошибка при редактировании элемента"
+      ],
+      "Empty CSV file": [
+        "Пустой файл CSV"
+      ],
+      "Emptying trash failed": [
+        "Ошибка при шифровании корзины"
+      ],
+      "Encrypted JSON not supported": [
+        "Зашифрованный JSON не поддерживается"
+      ],
+      "Error reporting problem": [
+        "Ошибка при сообщении о проблеме"
+      ],
+      "Failed removing the invite.": [
+        "Не удалось удалить приглашение."
+      ],
+      "Failed resending invite.": [
+        "Не удалось повторно отправить приглашение."
+      ],
+      "Failed to edit user's access.": [
+        "Не удалось изменить доступ пользователя."
+      ],
+      "Failed to move all items from \"${ payload.content.name }\"": [
+        "Сбой при перемещении всех элементов из \"${ payload.content.name }\""
+      ],
+      "Failed to remove user's access.": [
+        "Не удалось удалить доступ пользователя."
+      ],
+      "Failed to transfer this vault's ownership.": [
+        "Сбой при передаче владения хранилищем."
+      ],
+      "File could not be parsed": [
+        "Файл не может быть обработан"
+      ],
+      "Import failed for vault \"${ vaultData.name }\" : ${ description }": [
+        "Сбой при импорте для хранилища \"${ vaultData.name }\" : ${ description }"
+      ],
+      "Importing items failed": [
+        "Сбой импорта элементов"
+      ],
+      "Invalid password manager": [
+        "Неверный менеджер паролей"
+      ],
+      "Invalid URL": [
+        "Недействительный URL"
+      ],
+      "Invitation could not be accepted": [
+        "Приглашение не может быть принято"
+      ],
+      "Invitation could not be rejected": [
+        "Приглашение не может быть отклонено"
+      ],
+      "Item content cannot exceed 40KB": [
+        "Содержимое элемента не может превышать 40 Кбайт"
+      ],
+      "Item creation failed": [
+        "Ошибка при создании элемента"
+      ],
+      "LastPass will export a corrupted CSV file if any of your item fields contain unexpected commas, quotes or multiple lines": [
+        "LastPass экспортирует поврежденный CSV-файл, если любое поле содержит неожиданные запятые, кавычки или несколько строк"
+      ],
+      "Moving item failed": [
+        "Ошибка при перемещении элемента"
+      ],
+      "Passphrase is incorrect": [
+        "Неверная парольная фраза"
+      ],
+      "PIN codes do not match": [
+        "Пин-коды не совпадают"
+      ],
+      "Please grant ${ PASS_APP_NAME } the necessary extension permissions in order to continue": [
+        "Пожалуйста, предоставьте ${ PASS_APP_NAME } необходимые разрешения для расширения, чтобы продолжить"
+      ],
+      "Request timed out": [
+        "Время запроса истекло"
+      ],
+      "Requesting alias options failed": [
+        "Сбой при запросе вариантов псевдонимов"
+      ],
+      "Restoring item failed": [
+        "Ошибка при восстановлении элемента"
+      ],
+      "Restoring trashed items failed": [
+        "Сбой восстановления элементов из корзины."
+      ],
+      "Settings update failed": [
+        "Ошибка при обновлении настроек"
+      ],
+      "Signature verification failed": [
+        "Проверка подписи не удалась"
+      ],
+      "Some vaults are no longer accessible due to a password reset. Reactivate your account keys in order to regain access. ${ reactivateLink }": [
+        "Некоторые хранилища больше недоступны из-за сброса пароля. Восстановите ключи вашего аккаунта, чтобы вновь получить доступ. ${ reactivateLink }"
+      ],
+      "Something went wrong": [
+        "Что-то пошло не так"
+      ],
+      "Something went wrong. Please reload the ${ PASS_APP_NAME } extension. This issue has been logged": [
+        "Что-то пошло не так. Пожалуйста, перезагрузите расширение ${ PASS_APP_NAME }. Эта проблема была зарегистрирована"
+      ],
+      "The file you are trying to import is empty": [
+        "Файл, который вы пытаетесь импортировать, пуст"
+      ],
+      "The URL is in the list": [
+        "Этот URL уже в списке"
+      ],
+      "Too many failed attempts. Please sign in again.": [
+        "Слишком много неудачных попыток. Пожалуйста, войдите снова."
+      ],
+      "Trashing item failed": [
+        "Ошибка при перемещении элемента в корзину"
+      ],
+      "Unable to boot": [
+        "Невозможно загрузиться"
+      ],
+      "Unable to generate an OTP code for this item": [
+        "Невозможно сгенерировать OTP-код для этого элемента"
+      ],
+      "Unable to sync": [
+        "Невозможно синхронизировать"
+      ],
+      "Unknown error": [
+        "Неизвестная ошибка"
+      ],
+      "Unknown invite": [
+        "Неизвестное приглашение"
+      ],
+      "Unsupported ${ PASS_APP_NAME } file format": [
+        "Неподдерживаемый формат файла ${ PASS_APP_NAME }"
+      ],
+      "Unsupported 1Password file format": [
+        "Неподдерживаемый формат файла 1Password"
+      ],
+      "Updating vault \"${ payload.content.name }\" failed": [
+        "Сбой при обновлении хранилища \"${ payload.content.name }\""
+      ],
+      "Vault \"${ payload.content.name }\" creation failed": [
+        "Сбой при создании хранилища \"${ payload.content.name }\""
+      ],
+      "Vault \"${ vaultData.name }\" could not be created": [
+        "Хранилище \"${ vaultData.name }\" не может быть создано"
+      ],
+      "Vault name does not match": [
+        "Название хранилища не совпадает"
+      ],
+      "Wrong PIN code. Try again.": [
+        "Неверный PIN-код. Попробуйте снова."
+      ]
+    },
+    "Error message": {
+      "Please refresh the page or try again later.": [
+        "Пожалуйста, обновите страницу или повторите попытку позже."
+      ],
+      "Something went wrong": [
+        "Что-то пошло не так"
+      ]
+    },
+    "file size format": {
+      "byte": [
+        "байт",
+        "байта",
+        "байтов",
+        "байтов"
+      ],
+      "GB": [
+        "ГБ"
+      ],
+      "KB": [
+        "КБ"
+      ],
+      "MB": [
+        "МБ"
+      ],
+      "TB": [
+        "ТБ"
+      ]
+    },
+    "file size format, long": {
+      "Byte": [
+        "Байт",
+        "Байта",
+        "Байтов",
+        "Байтов"
+      ],
+      "Gigabyte": [
+        "Гигабайт",
+        "Гигабайт",
+        "Гигабайт",
+        "Гигабайтов"
+      ],
+      "Kilobyte": [
+        "Килобайт",
+        "Килобайта",
+        "Килобайтов",
+        "Килобайтов"
+      ],
+      "Megabyte": [
+        "Мегабайт",
+        "Мегабайтов",
+        "Мегабайтов",
+        "Мегабайтов"
+      ]
+    },
+    "Info": {
+      " Upgrade to a paid plan to create multiple vaults.": [
+        " Перейдите на платный план, чтобы создать несколько хранилищ."
+      ],
+      "\"${ payload.item.data.metadata.name }\" item was dismissed": [
+        "Элемент \"${ payload.item.data.metadata.name }\" был отклонен"
+      ],
+      "\"${ payload.item.data.metadata.name }\" update was dismissed": [
+        "Обновление \"${ payload.item.data.metadata.name }\" было отклонено"
+      ],
+      "${ count } item": [
+        "${ count } элемент",
+        "${ count } элемента",
+        "${ count } элементов",
+        "${ count } элементов"
+      ],
+      "${ itemCount } item": [
+        "${ itemCount } элемент",
+        "${ itemCount } элемента",
+        "${ itemCount } элементов",
+        "${ itemCount } элемента"
+      ],
+      "${ memberCount } member": [
+        "${ memberCount } член",
+        "${ memberCount } члена",
+        "${ memberCount } членов",
+        "${ memberCount } член"
+      ],
+      "${ revisionNumber } time": [
+        "${ revisionNumber } раз",
+        "${ revisionNumber } раза",
+        "${ revisionNumber } раз",
+        "${ revisionNumber } раза"
+      ],
+      "${ totalImportedItems } item": [
+        "${ totalImportedItems } элемент",
+        "${ totalImportedItems } элемента",
+        "${ totalImportedItems } элементов",
+        "${ totalImportedItems } элемента"
+      ],
+      "${ totalItems } item": [
+        "${ totalItems } элемент",
+        "${ totalItems } элемента",
+        "${ totalItems } элементов",
+        "${ totalItems } элементов"
+      ],
+      "${ trialDaysLeft } day left": [
+        "Остался ${ trialDaysLeft } день",
+        "Осталось ${ trialDaysLeft } дня",
+        "Осталось ${ trialDaysLeft } дней",
+        "Осталось ${ trialDaysLeft } дня"
+      ],
+      "A new version of ${ PASS_APP_NAME } is available. Update it to enjoy the latest features and bug fixes.": [
+        "Доступна новая версия ${ PASS_APP_NAME }. Обновите ее, чтобы насладиться последними функциями и исправлениями ошибок."
+      ],
+      "Access successfully confirmed": [
+        "Доступ успешно подтверждён"
+      ],
+      "Admin": [
+        "Админ"
+      ],
+      "Alias \"${ item.aliasEmail }\" moved to trash - it will stop forwarding emails to your mailbox": [
+        "Псевдоним \"${ item.aliasEmail }\" перемещен в корзину - это остановит пересылку писем в ваш почтовый ящик"
+      ],
+      "All items from \"${ payload.content.name }\" successfully moved": [
+        "Все элементы из \"${ payload.content.name }\" успешно удалены"
+      ],
+      "All trashed items successfully restored": [
+        "Все элементы из корзины успешно восстановлены"
+      ],
+      "An item previously shared with you was removed": [
+        "Элемент, которым ранее поделились с вами, был удален"
+      ],
+      "Auto-lock successfully disabled": [
+        "Автоблокировка успешно отключена"
+      ],
+      "Can create, edit, delete, and export items in this vault.": [
+        "Может создавать, редактировать, удалять и экспортировать элементы этого хранилища."
+      ],
+      "Can grant and revoke access to this vault, and delete it.": [
+        "Может представлять и отзывать доступ к этому хранилищу, и удалять его."
+      ],
+      "Can grant and revoke access to this vault.": [
+        "Может представлять и отзывать доступ к этому хранилищу."
+      ],
+      "Can view items in this vault.": [
+        "Может просматривать элементы в этом хранилище."
+      ],
+      "Copied to clipboard": [
+        "Скопировано в буфер обмена"
+      ],
+      "Credit cards, Custom fields": [
+        "Кредитные карты, настраиваемые поля"
+      ],
+      "Decrypting your data": [
+        "Расшифровка ваших данных"
+      ],
+      "Deleted items will be moved here first": [
+        "Удаленные элементы будут сначала перемещены сюда"
+      ],
+      "Deleting \"${ payload.content.name }\"": [
+        "Удаление \"${ payload.content.name }\""
+      ],
+      "Drop file here to upload": [
+        "Переместите файл сюда, чтобы скачать"
+      ],
+      "Drop to import": [
+        "Импортировать"
+      ],
+      "Editor": [
+        "Редактор"
+      ],
+      "Emptying trash...": [
+        "Очистка корзины..."
+      ],
+      "Enter verification code. Digit ${ digit }.": [
+        "Введите код подтверждения. Цифра ${ digit }."
+      ],
+      "Enter your PIN code": [
+        "Введите свой PIN-код"
+      ],
+      "Export is encrypted using PGP and requires a strong passphrase.": [
+        "Экспорт зашифрован с помощью PGP и требует надежной кодовой фразы."
+      ],
+      "For security reasons, your access needs to be confirmed": [
+        "По причинам безопасности, ваш доступ должен быть подтверждён"
+      ],
+      "Generated passwords will be stored for a period of one day.": [
+        "Сгенерированные пароли сохранятся в течение одного дня."
+      ],
+      "Get unlimited aliases, enjoy exclusive features, and support us by subscribing to Pass Plus.": [
+        "Получите неограниченное количество псевдонимов, наслаждайтесь эксклюзивными функциями и поддержите нас, подписавшись на Pass Plus."
+      ],
+      "Imported ${ payload.total } item": [
+        "Импортирован ${ payload.total } элемент",
+        "Импортировано ${ payload.total } элемента",
+        "Импортировано ${ payload.total } элементов",
+        "Импортировано ${ payload.total } элемента"
+      ],
+      "Imported on ${ date }": [
+        "Импортировано ${ date }"
+      ],
+      "In order to get the best experience out of ${ PASS_APP_NAME }, please grant the necessary extension permissions": [
+        "Для того чтобы получить лучший опыт использования ${ PASS_APP_NAME }, пожалуйста, предоставьте необходимые разрешения расширению."
+      ],
+      "Internet connection lost": [
+        "Подключение к Интернету потеряно"
+      ],
+      "Invitation sent": [
+        "Приглашение отправлено"
+      ],
+      "Invite successfully removed": [
+        "Приглашение успешно удалено"
+      ],
+      "Invite successfully resent": [
+        "Приглашение успешно переотправлено"
+      ],
+      "Invite successfully sent": [
+        "Приглашение успешно отправлено"
+      ],
+      "It seems you are already logged in to ${ PASS_APP_NAME }. If you're trying to login with a different account, please logout from the extension first.": [
+        "Похоже, вы уже вошли в ${ PASS_APP_NAME }. Если ты пытаешься войти с другой учётной записью, пожалуйста, сначала выйдите из расширения."
+      ],
+      "item": [
+        "элемент",
+        "элемента",
+        "элементов",
+        "элементов"
+      ],
+      "Item \"${ payload.item.data.metadata.name }\" created": [
+        "Элемент \"${ payload.item.data.metadata.name }\" создан"
+      ],
+      "Item \"${ payload.item.data.metadata.name }\" updated": [
+        "Элемент \"${ payload.item.data.metadata.name }\" обновлен"
+      ],
+      "Item moved to trash": [
+        "Элемент перемещен в корзину"
+      ],
+      "Item permanently deleted": [
+        "Элемент удален окончательно"
+      ],
+      "Item restored": [
+        "Элемент восстановлен"
+      ],
+      "Item successfully moved": [
+        "Элемент успешно перемещен"
+      ],
+      "Leaving vault...": [
+        "Покидаю хранилище..."
+      ],
+      "Let's get you started by creating your first item": [
+        "Давайте начнём с создания вашего первого элемента"
+      ],
+      "Loading": [
+        "Загрузка"
+      ],
+      "Loading...": [
+        "Загрузка..."
+      ],
+      "me": [
+        "я"
+      ],
+      "More than a password manager, ${ PASS_APP_NAME } protects your password and your personal email address via email aliases. Powered by the same technology behind ${ MAIL_APP_NAME }, your data is end to end encrypted and is only accessible by you.": [
+        "Более чем просто менеджер паролей, ${ PASS_APP_NAME } защищает ваш пароль и ваш личный адрес электронной почты с помощью псевдонимов электронной почты. Работая на технологии, лежащей в основе ${ MAIL_APP_NAME }, ваши данные защищены конечным шифрованием и доступны только вам."
+      ],
+      "Moving all items from \"${ payload.content.name }\"": [
+        "Перемещение всех элементов из \"${ payload.content.name }\""
+      ],
+      "Multiple vaults": [
+        "Несколько хранилищ"
+      ],
+      "None": [
+        "Ничего"
+      ],
+      "Open the Extensions menu": [
+        "Откройте меню Расширения"
+      ],
+      "Owner": [
+        "Владелец"
+      ],
+      "Ownership successfully transfered. You are no long the owner of this vault.": [
+        "Владение успешно передано. Вы теперь не владелец этого хранилища."
+      ],
+      "Pass Plus trial": [
+        "Проба Pass Plus"
+      ],
+      "Passwords older than 1 day are automatically deleted from history.": [
+        "Пароли старше 1 дня автоматически удаляются из истории."
+      ],
+      "PIN code successfully registered. Use it to unlock ${ PASS_APP_NAME }": [
+        "PIN-код успешно зарегистрирован. Используйте его для разблокировки ${ PASS_APP_NAME }"
+      ],
+      "Please confirm your PIN code in order to unregister your current lock.\n${ PASS_APP_NAME } will then never lock.": [
+        "Пожалуйста, подтвердите свой PIN-код, чтобы снять регистрацию текущей блокировки.\nПриложение ${ PASS_APP_NAME } больше не будет блокироваться."
+      ],
+      "Please confirm your PIN code to edit this setting.": [
+        "Пожалуйста, подтвердите ваш PIN-код, чтобы изменить эту настройку."
+      ],
+      "Please confirm your PIN code to finish registering your auto-lock settings.": [
+        "Пожалуйста, подтвердите ваш PIN-код, чтобы завершить регистрацию настроек автоблокировки вашего устройства."
+      ],
+      "Please consider leaving a review.": [
+        "Пожалуйста, подумайте о том, чтобы оставить отзыв."
+      ],
+      "Please enter your current PIN code to continue": [
+        "Пожалуйста, введите свой текущий PIN-код для продолжения"
+      ],
+      "Press Enter to copy": [
+        "Нажмите Enter, чтобы скопировать"
+      ],
+      "Privacy is a big concern for us. Learn why ${ PASS_APP_NAME } is different.": [
+        "Конфиденциальность является нашей большой заботой. Узнайте, почему ${ PASS_APP_NAME } отличается."
+      ],
+      "Restoring trashed items...": [
+        "Восстановление элементов из корзины..."
+      ],
+      "Select destination vault": [
+        "Выберите целевое хранилище:"
+      ],
+      "Servers are unreachable. Please try again in a few minutes": [
+        "Серверы недоступны. Попробуйте снова через несколько минут"
+      ],
+      "Session timed out": [
+        "Время сеанса истекло"
+      ],
+      "Set up a PIN code to easily lock your data": [
+        "Установите PIN-код для удобной блокировки ваших данных."
+      ],
+      "Settings successfully updated": [
+        "Настройки успешно обновлены"
+      ],
+      "Share with 10 others": [
+        "Делитесь с 10 другими"
+      ],
+      "Sign in to your account": [
+        "Войти в ваш аккаунт"
+      ],
+      "Signing you in": [
+        "Выполняется вход"
+      ],
+      "Successfully exported all your items": [
+        "Все ваши элементы успешно экспортированы"
+      ],
+      "Successfully left the vault": [
+        "Хранилище успешно покинуто"
+      ],
+      "Successfully synced all vaults": [
+        "Все хранилища успешно синхронизированы"
+      ],
+      "Syncing your vaults…": [
+        "Синхронизация ваших хранилищ..."
+      ],
+      "Thank you, the problem has been reported": [
+        "Спасибо, отчет о проблеме отправлен"
+      ],
+      "The following ${ result.ignored.length } item could not be imported:": [
+        "Следующий ${ result.ignored.length } элемент не может быть импортирован:",
+        "Следующие ${ result.ignored.length } элемента не могут быть импортированы:",
+        "Следующие ${ result.ignored.length } элементов не могут быть импортированы:",
+        "Следующие ${ result.ignored.length } элемента не могут быть импортированы:"
+      ],
+      "The text you're trying to paste is longer than the maximum allowed length of ${ maxLength } characters.": [
+        "Текст, который вы пытаетесь вставить, длиннее разрешенного максимального количества символов ${ maxLength }."
+      ],
+      "The user did not accept the invitation yet.": [
+        "Пользователь ещё не принял приглашение."
+      ],
+      "This export will be unencrypted and anyone with access to your exported file will be able to see your passwords. For security, please delete it after you are done using it.": [
+        "Экспорт не будет зашифрован, и кто угодно, кто получит доступ к вашему экспортированному файлу, сможет увидеть ваши пароли. Для безопасности, пожалуйста, удалите его после использования."
+      ],
+      "This vault is not currently shared with anyone. Invite people to share it with others.": [
+        "Это хранилище в данный момент не является общим с кем-либо. Пригласите людей, чтобы поделиться им с другими."
+      ],
+      "Unable to copy to clipboard": [
+        "Не могу скопировать в буфер обмена"
+      ],
+      "Unlimited Aliases": [
+        "Неограниченное число псевдонимов"
+      ],
+      "Unlock it with your PIN to access the settings": [
+        "Разблокируйте его с помощью вашего PIN-кода, чтобы получить доступ к настройкам"
+      ],
+      "User's access removed": [
+        "Доступ пользователя удален"
+      ],
+      "User's access sucessfuly updated": [
+        "Доступ пользователя обновлен"
+      ],
+      "Vault \"${ payload.content.name }\" successfully deleted": [
+        "Хранилище \"${ payload.content.name }\" успешно удалено"
+      ],
+      "Vault \"${ payload.share.content.name }\" successfully created": [
+        "Хранилище \"${ payload.share.content.name }\" успешно создано"
+      ],
+      "Vault \"${ payload.share.content.name }\" successfully updated": [
+        "Хранилище \"${ payload.share.content.name }\" успешно обновлено"
+      ],
+      "Vault \"${ share.content.name }\" was removed": [
+        "Хранилище \"${ share.content.name }\" было удалено"
+      ],
+      "Viewer": [
+        "Читатель"
+      ],
+      "We are having trouble syncing data to your local storage. Please make sure you have sufficient disk space for ${ PASS_SHORT_APP_NAME } to work smoothly.": [
+        "У нас возникли проблемы при синхронизации данных со средствами локального хранения. Пожалуйста, убедитесь, что у вас достаточно места на диске, чтобы ${ PASS_SHORT_APP_NAME } работал без сбоев."
+      ],
+      "You are about to create:": [
+        "Вы собираетесь создать:"
+      ],
+      "You cannot change the mailboxes for this alias.": [
+        "Вы не можете изменить почтовые ящики для этого псевдонима."
+      ],
+      "You have ${ daysRemaining } day left to try these and other premium features.": [
+        "У вас остался ${ daysRemaining } день, чтобы опробовать эти и другие премиум-функции.",
+        "У вас осталось ${ daysRemaining } дня, чтобы опробовать эти и другие премиум-функции.",
+        "У вас осталось ${ daysRemaining } дней, чтобы опробовать эти и другие премиум-функции.",
+        "У вас осталось ${ daysRemaining } дня, чтобы опробовать эти и другие премиум-функции."
+      ],
+      "You have reached the limit of aliases you can create. Create an unlimited number of aliases when you upgrade your subscription.": [
+        "Вы достигли лимита на количество псевдонимов, которые можно создать. Создавайте неограниченное количество псевдонимов, улучшив свою подписку."
+      ],
+      "You have reached the limit of vaults you can create.": [
+        "Вы достигли предельного количества сейфов, которое вам можно создать."
+      ],
+      "You have reached the maximum allowed length of ${ maxLength } characters.": [
+        "Вы достигли максимально разрешенной длины в ${ maxLength } символов."
+      ],
+      "You will use this PIN to unlock ${ PASS_APP_NAME } once it auto-locks after a period of inactivity.": [
+        "Вы будете использовать этот ПИН-код, чтобы разблокировать ${ PASS_APP_NAME }, когда он автоматически заблокируется после бездействия."
+      ],
+      "Your ${ PASS_APP_NAME } session is locked": [
+        "Ваш сеанс ${ PASS_APP_NAME } заблокирован"
+      ],
+      "Your files will be encrypted and then saved": [
+        "Ваши файлы будут зашифрованы и затем сохранены"
+      ]
+    },
+    "Label": {
+      "${ passwordOptions.options.length } character": [
+        "${ passwordOptions.options.length } символ",
+        "${ passwordOptions.options.length } символа",
+        "${ passwordOptions.options.length } символов",
+        "${ passwordOptions.options.length } символа"
+      ],
+      "${ passwordOptions.options.wordCount } word": [
+        "${ passwordOptions.options.wordCount } слово",
+        "${ passwordOptions.options.wordCount } слова",
+        "${ passwordOptions.options.wordCount } слов",
+        "${ passwordOptions.options.wordCount } слова"
+      ],
+      "1 hour": [
+        "1 час"
+      ],
+      "1 minute": [
+        "1 минута"
+      ],
+      "10 minutes": [
+        "10 минут"
+      ],
+      "15 minutes": [
+        "15 минут"
+      ],
+      "2FA token (TOTP)": [
+        "Токен 2ФА (TOTP)"
+      ],
+      "30 minutes": [
+        "30 минут"
+      ],
+      "30 seconds": [
+        "30 секунд"
+      ],
+      "5 minutes": [
+        "5 минут"
+      ],
+      "A-Z": [
+        "А-Я"
+      ],
+      "Alias": [
+        "Псевдоним"
+      ],
+      "Alias address": [
+        "Адрес псевдонима"
+      ],
+      "Aliases": [
+        "Псевдонимы"
+      ],
+      "All": [
+        "Все"
+      ],
+      "All vaults": [
+        "Все хранилища"
+      ],
+      "Alphabetical": [
+        "По алфавиту"
+      ],
+      "Application logs": [
+        "Журналы приложения"
+      ],
+      "Auto-lock ${ PASS_APP_NAME }": [
+        "Авто-блокировка ${ PASS_APP_NAME }"
+      ],
+      "Auto-lock after": [
+        "Автоблокировка через"
+      ],
+      "Autofill": [
+        "Автозаполнение"
+      ],
+      "Autofill 2FA": [
+        "Автозаполнение 2ФА"
+      ],
+      "Autosave": [
+        "Автосохранение"
+      ],
+      "Autosuggest": [
+        "Автоподсказка"
+      ],
+      "Capital letters (A-Z)": [
+        "Заглавные буквы (A-Z)"
+      ],
+      "Capitalise": [
+        "Заглавными"
+      ],
+      "Card number": [
+        "Номер карты"
+      ],
+      "Cards": [
+        "Карты"
+      ],
+      "Confirm vault name": [
+        "Подтвердите название хранилища"
+      ],
+      "Create a credit card": [
+        "Создать кредитную карту"
+      ],
+      "Create a hide-my-email alias": [
+        "Создать псевдоним hide-my-email"
+      ],
+      "Create a login": [
+        "Создать логин"
+      ],
+      "Create an encrypted note": [
+        "Создать зашифрованную заметку"
+      ],
+      "Create new vault": [
+        "Создать новое хранилище"
+      ],
+      "Created": [
+        "Создано"
+      ],
+      "Display": [
+        "Показать"
+      ],
+      "Display ${ PASS_APP_NAME } icon on login fields": [
+        "Показать иконку ${ PASS_APP_NAME } на полях входа"
+      ],
+      "Domain": [
+        "Домен"
+      ],
+      "Domains": [
+        "Домены"
+      ],
+      "Download logs": [
+        "Скачать журналы"
+      ],
+      "Email aliases": [
+        "Псевдонимы электронной почты"
+      ],
+      "Empty trash": [
+        "Очистить корзину"
+      ],
+      "Encrypt your ${ PASS_APP_NAME } data export file": [
+        "Зашифруйте файл экспорта данных ${ PASS_APP_NAME }"
+      ],
+      "Expiration date": [
+        "Срок действия"
+      ],
+      "Export": [
+        "Экспорт"
+      ],
+      "Forwards to": [
+        "Переслать"
+      ],
+      "General": [
+        "Общие"
+      ],
+      "Grant": [
+        "Предоставить"
+      ],
+      "Hidden": [
+        "Скрыто"
+      ],
+      "Hide password": [
+        "Скрыть пароль"
+      ],
+      "Import": [
+        "Импорт"
+      ],
+      "Import passwords": [
+        "Импортировать пароли"
+      ],
+      "Imported from : ": [
+        "Импортировано из : "
+      ],
+      "Imported on : ": [
+        "Дата импорта : "
+      ],
+      "Include numbers": [
+        "Включить числа"
+      ],
+      "Include numbers (0-9)": [
+        "Включить числа (0-9)"
+      ],
+      "Language": [
+        "Язык"
+      ],
+      "Last 2 weeks": [
+        "Последние 2 недели"
+      ],
+      "Last autofill": [
+        "Последнее автозаполнение"
+      ],
+      "Last month": [
+        "Последний месяц"
+      ],
+      "Last week": [
+        "Последняя неделя"
+      ],
+      "Latest import": [
+        "Последний импорт"
+      ],
+      "Learn more": [
+        "Подробнее"
+      ],
+      "Login": [
+        "Имя пользователя"
+      ],
+      "Logins": [
+        "Имена пользователей"
+      ],
+      "Modified": [
+        "Изменено"
+      ],
+      "Most recent": [
+        "Самые новые"
+      ],
+      "Name": [
+        "Имя"
+      ],
+      "Name on card": [
+        "Имя на карте"
+      ],
+      "Need help ?": [
+        "Нужна помощь ?"
+      ],
+      "New vault": [
+        "Новое хранилище"
+      ],
+      "New-Old": [
+        "Новый-Старый"
+      ],
+      "Newest to oldest": [
+        "От новых к старым"
+      ],
+      "No history": [
+        "Нет истории"
+      ],
+      "Note": [
+        "Заметка"
+      ],
+      "Notes": [
+        "Примечания"
+      ],
+      "Old-New": [
+        "Старый-Новый"
+      ],
+      "Oldest to newest": [
+        "От старых к новым"
+      ],
+      "Passphrase": [
+        "Кодовая фраза"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Password history": [
+        "История паролей"
+      ],
+      "Passwords": [
+        "Пароли"
+      ],
+      "Pause list": [
+        "Список приостановки"
+      ],
+      "PIN": [
+        "PIN"
+      ],
+      "Prefix": [
+        "Префикс"
+      ],
+      "Prompt for auto-save": [
+        "Предлагать автосохранение"
+      ],
+      "Rate us": [
+        "Оцените нас"
+      ],
+      "Recent": [
+        "Недавние"
+      ],
+      "Report a problem": [
+        "Сообщить о проблеме"
+      ],
+      "Restore all items": [
+        "Восстановить все элементы"
+      ],
+      "Reveal password": [
+        "Показать пароль"
+      ],
+      "Security": [
+        "Безопасность"
+      ],
+      "Security code": [
+        "Код безопасности"
+      ],
+      "Select an email address": [
+        "Выберите адрес электронной почты"
+      ],
+      "Select preferred language": [
+        "Выберите предпочитаемый язык"
+      ],
+      "Select your password manager": [
+        "Выберите свой менеджер паролей"
+      ],
+      "Selected": [
+        "Выбрано"
+      ],
+      "Session locking": [
+        "Блокировка сеанса"
+      ],
+      "Set PIN code": [
+        "Установите PIN-код"
+      ],
+      "Settings": [
+        "Настройки"
+      ],
+      "Show website favicons": [
+        "Показать значки сайтов"
+      ],
+      "Special characters (!&*)": [
+        "Специальные символы (!&*)"
+      ],
+      "Suffix": [
+        "Суффикс"
+      ],
+      "Support": [
+        "Поддержка"
+      ],
+      "Text": [
+        "Текст"
+      ],
+      "Title": [
+        "Заголовок"
+      ],
+      "Today": [
+        "Сегодня"
+      ],
+      "Total imported items : ": [
+        "Всего импортировано элементов : "
+      ],
+      "Total items : ": [
+        "Всего элементов : "
+      ],
+      "TOTP": [
+        "TOTP"
+      ],
+      "Trash": [
+        "Корзина"
+      ],
+      "Type": [
+        "Тип"
+      ],
+      "Unnamed Credit Card": [
+        "Безымянная кредитная карта"
+      ],
+      "Unnamed item": [
+        "Элемент без имени"
+      ],
+      "Unnamed note": [
+        "Заметка без названия"
+      ],
+      "Untitled": [
+        "Без названия"
+      ],
+      "Update": [
+        "Обновить"
+      ],
+      "Username": [
+        "Имя пользователя"
+      ],
+      "Username (alias)": [
+        "Имя пользователя (псевдоним)"
+      ],
+      "Username (new alias)": [
+        "Имя пользователя (новый псевдоним)"
+      ],
+      "Vault": [
+        "Хранилище"
+      ],
+      "View logs": [
+        "Просмотр журналов"
+      ],
+      "Websites": [
+        "Веб-сайты"
+      ],
+      "You are about to create": [
+        "Вы собираетесь создать"
+      ]
+    },
+    "Option": {
+      "Commas": [
+        "Запятые"
+      ],
+      "Hyphens": [
+        "Дефисы"
+      ],
+      "Numbers": [
+        "Цифры"
+      ],
+      "Numbers and Symbols": [
+        "Цифры и символы"
+      ],
+      "Periods": [
+        "Точки"
+      ],
+      "Random Password": [
+        "Случайный пароль"
+      ],
+      "Spaces": [
+        "Пробелы"
+      ],
+      "Underscores": [
+        "Подчеркивания"
+      ]
+    },
+    "Placeholder": {
+      "Add hidden text": [
+        "Добавить скрытый текст"
+      ],
+      "Add note": [
+        "Добавить заметку"
+      ],
+      "Add text": [
+        "Добавить текст"
+      ],
+      "Email address": [
+        "Адрес электронной почты"
+      ],
+      "Enter a note...": [
+        "Введите заметку..."
+      ],
+      "Enter a prefix": [
+        "Введите префикс"
+      ],
+      "Enter email or username": [
+        "Введите эл. почту или имя пользователя"
+      ],
+      "Enter password": [
+        "Введите пароль"
+      ],
+      "Full Name": [
+        "Полное имя"
+      ],
+      "MM/YYYY": [
+        "ММ/ГГГГ"
+      ],
+      "Other": [
+        "Другое"
+      ],
+      "Pick a vault": [
+        "Выберите хранилище"
+      ],
+      "Please describe the problem and include any error messages": [
+        "Пожалуйста, опишите проблему и добавьте все возникавшие сообщения об ошибках"
+      ],
+      "Retype \"${ vaultName }\" to confirm deletion": [
+        "Введите \"${ vaultName }\", чтобы подтвердить удаление"
+      ],
+      "Search in ${ vault.content.name }": [
+        "Искать в ${ vault.content.name }"
+      ],
+      "Search in all vaults": [
+        "Искать во всех хранилищах"
+      ],
+      "Search in Trash": [
+        "Искать в корзине"
+      ],
+      "Select a suffix": [
+        "Выберите суффикс"
+      ],
+      "Unknown origin": [
+        "Неизвестное происхождение"
+      ],
+      "Untitled": [
+        "Без названия"
+      ],
+      "Used on ${ url }": [
+        "Использовать на ${ url }"
+      ],
+      "Write your note": [
+        "Напишите свою заметку"
+      ]
+    },
+    "Success": {
+      "Vaults can’t contain more than ${ vault.targetMaxMembers } user.": [
+        "В хранилище может быть не больше ${ vault.targetMaxMembers } пользователя.",
+        "В хранилище может быть не больше ${ vault.targetMaxMembers } пользователей.",
+        "В хранилище может быть не больше ${ vault.targetMaxMembers } пользователей.",
+        "В хранилище может быть не больше ${ vault.targetMaxMembers } пользователей."
+      ]
+    },
+    "Title": {
+      "${ PASS_APP_NAME } Settings": [
+        "Настройки ${ PASS_APP_NAME }"
+      ],
+      "Auto-lock update": [
+        "Обновление авто-блокировки"
+      ],
+      "Confirm PIN code": [
+        "Подтвердите ПИН-код"
+      ],
+      "Create PIN code": [
+        "Создать PIN-код"
+      ],
+      "Delete vault \"${ vaultName }\" ?": [
+        "Удалить хранилище \"${ vaultName }\"?"
+      ],
+      "Discard changes?": [
+        "Сбросить изменения?"
+      ],
+      "Email": [
+        "Эл. почта"
+      ],
+      "Enjoying ${ PASS_APP_NAME }?": [
+        "Наслаждаетесь ${ PASS_APP_NAME }?"
+      ],
+      "Grant permissions": [
+        "Предоставить разрешения"
+      ],
+      "Import - ${ date }": [
+        "Импорт - ${ date }"
+      ],
+      "Import to vault(s)": [
+        "Импорт в хранилище"
+      ],
+      "Low disk space": [
+        "Мало места на диске"
+      ],
+      "Password": [
+        "Пароль"
+      ],
+      "Permanently remove all items ?": [
+        "Безвозвратно удалить все элементы?"
+      ],
+      "Secure your data": [
+        "Защитите свои данные"
+      ],
+      "Trash empty": [
+        "Корзина пуста"
+      ],
+      "Unlock ${ brandNameJSX }": [
+        "Разблокировать ${ brandNameJSX }"
+      ],
+      "Update available": [
+        "Доступно обновление"
+      ],
+      "Welcome to ${ brandNameJSX }": [
+        "Добро пожаловать в ${ brandNameJSX }"
+      ],
+      "Welcome to ${ PASS_APP_NAME }": [
+        "Добро пожаловать в ${ PASS_APP_NAME }"
+      ],
+      "Why ${ PASS_APP_NAME }?": [
+        "Почему ${ PASS_APP_NAME }?"
+      ],
+      "Your vault is empty": [
+        "Ваше хранилище пусто"
+      ]
+    },
+    "Validation": {
+      "Url already exists": [
+        "Url уже существует"
+      ],
+      "Url is invalid": [
+        "Url недействителен"
+      ]
+    },
+    "Warning": {
+      "A description of the problem is required": [
+        "Требуется описание проблемы"
+      ],
+      "Alias \"${ name }\" is currently used in login item \"${ relatedLoginName }\". You will also stop receiving emails sent to \"${ aliasEmail }\"": [
+        "Псевдоним \"${ name }\" в настоящее время используется в элементе входа \"${ relatedLoginName }\". Вы также перестанете получать электронные письма, отправленные на \"${ aliasEmail }\"."
+      ],
+      "An error occured while exporting your data": [
+        "При экспорте ваших данных произошла ошибка"
+      ],
+      "Cannot retrieve mailboxes for this alias right now": [
+        "Не удалось получить почтовые ящики для этого псевдонима в данный момент"
+      ],
+      "Could not create vault \"${ vaultName }\"": [
+        "Не могу создать хранилище \"${ vaultName }\""
+      ],
+      "Empty note": [
+        "Пустая заметка"
+      ],
+      "Expiration Date is incomplete": [
+        "Срок годности не заполнен до конца"
+      ],
+      "Invalid alias prefix": [
+        "Недопустимый префикс псевдонима"
+      ],
+      "Maximum length is ${ maxLength } character": [
+        "Максимальная длина ${ maxLength } символ",
+        "Максимальная длина ${ maxLength } символа",
+        "Максимальная длина ${ maxLength } символов",
+        "Максимальная длина ${ maxLength } символа"
+      ],
+      "Missing alias prefix": [
+        "Отсутствует префикс псевдонима"
+      ],
+      "Missing alias suffix": [
+        "Отсутствует суффикс псевдонима"
+      ],
+      "No items": [
+        "Нет элементов"
+      ],
+      "No items in trash matching": [
+        "В корзине нет совпадающих элементов"
+      ],
+      "No items matching": [
+        "Нет совпадающих элементов"
+      ],
+      "No password manager selected": [
+        "Не выбран менеджер паролей"
+      ],
+      "Only alphanumeric characters, dots, hyphens and underscores are allowed": [
+        "Только буквы, цифры, точки, дефисы и подчеркивания разрешены"
+      ],
+      "Passphrase is required": [
+        "Требуется кодовая фраза"
+      ],
+      "PGP encrypted export file requires passphrase": [
+        "Для файла экспорта с шифрованием в PGP требуется парольная фраза"
+      ],
+      "Please enter a valid email address": [
+        "Пожалуйста, введите действительный адрес эл. почты"
+      ],
+      "Reports are not end-to-end encrypted, please do not send any sensitive information.": [
+        "Отчеты отправляются без сквозного шифрования. Пожалуйста, не указывайте никакой конфиденциальной информации."
+      ],
+      "Something went wrong while starting ${ PASS_APP_NAME }. Please try refreshing or reloading the extension": [
+        "Что-то пошло не так при запуске ${ PASS_APP_NAME }. Пожалуйста, попробуйте обновить или перезагрузить расширение"
+      ],
+      "The alias prefix cannot be longer than 40 characters": [
+        "Префикс псевдонима не может быть длиннее 40 символов"
+      ],
+      "Title is required": [
+        "Название обязательно"
+      ],
+      "Trash alias ?": [
+        "Переместить псевдоним в корзину?"
+      ],
+      "Unable to sign in to ${ PASS_APP_NAME }. ${ additionalMessage }": [
+        "Не могу войти в ${ PASS_APP_NAME }. ${ additionalMessage }"
+      ],
+      "Vault name is required": [
+        "Требуется название хранилища"
+      ],
+      "You cannot create more vaults than your subscription allows.": [
+        "Вы не можете создавать больше хранилищ, чем разрешает ваша подписка."
+      ],
+      "You must select at least one mailbox": [
+        "Вы должны выбрать хотя бы один почтовый ящик"
+      ],
+      "You will no longer have access to this vault. To join it again, you will need a new invitation.": [
+        "У вас больше не будет доступа к этому хранилищу. Чтобы присоединиться снова, вам понадобится новое приглашение."
+      ]
+    }
+  }
+}

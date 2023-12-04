@@ -1,0 +1,8 @@
+@import '~@proton/styles/scss/lib';
+@import '~@proton/pass/styles/lobby';
+
+.pass-lobby--content::before {
+	content: '';
+	display: block;
+	block-size: rem(100);
+}

@@ -1,0 +1,41 @@
+@import '~@proton/styles/scss/lib';
+
+.contacts-widget {
+	--min-width: #{em(500)};
+	--min-height: #{em(550)};
+
+	&-search-container,
+	&-toolbar,
+	.item-container {
+		padding-inline: var(--space-4);
+	}
+
+	&-tabs {
+		padding-block-start: var(--space-4);
+		margin-inline: var(--space-4);
+	}
+
+	.ReactVirtualized__Grid__innerScrollContainer {
+		border: 0;
+	}
+	@include media('<=small') {
+		&.dropdown {
+			padding-inline: 5%;
+		}
+	}
+
+	.item-container {
+		border-radius: 0;
+		margin-inline: 0;
+		padding-block: var(--space-2);
+
+		&:not(.item-in-drawer) {
+			border-block-end: 1px solid var(--border-weak);
+		}
+	}
+}
+
+.contacts-modal {
+	// Special case otherwise contacts are not properly displayed
+	--size: #{rem(740)};
+}

@@ -1,0 +1,182 @@
+{
+  "headers": {
+    "plural-forms": "nplurals=2; plural=(n != 1);",
+    "language": "en_US"
+  },
+  "contexts": {
+    "Action": {
+      "Ok": [
+        "OK"
+      ]
+    },
+    "Calendar sharing access option label": {
+      "Edit (view, create and edit event details)": [
+        "Edit (view, create or edit event details)"
+      ]
+    },
+    "Description": {
+      "Automatically clear out messages older than 30 days from trash and spam. Enjoy this and other benefits when you upgrade.": [
+        "Automatically clear out messages that have been in Trash or Spam for over 30 days. Enjoy this and other benefits when you upgrade."
+      ],
+      "For import via CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }.": [
+        "To import via a CSV and VCF file, ensure the file does not exceed ${ MAX_IMPORT_FILE_SIZE_STRING } or ${ MAX_IMPORT_CONTACTS_STRING } contacts. If your file is bigger, please split it into smaller files. ${ learnMoreLink }."
+      ]
+    },
+    "Error": {
+      "Require at least one action": [
+        "Add at least one action"
+      ],
+      "Require at least one condition": [
+        "Add at least one condition"
+      ],
+      "You have reached the contacts limit for your account": [
+        "You have reached the number of contacts limit for your account"
+      ],
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "To create non-private users and access their accounts, you'll need to activate your organization keys."
+      ]
+    },
+    "familyOffer_2023:Action": {
+      "Invite member to your family": [
+        "Invite a user"
+      ]
+    },
+    "familyOffer_2023:Family plan": {
+      "Manage addresses.": [
+        "Manage addresses"
+      ]
+    },
+    "Info": {
+      "(${ serverPrice } /month)": [
+        "(${ serverPrice }/month)"
+      ],
+      "A recovery file lets you unlock and view your data after an account reset": [
+        "A recovery file lets you unlock and view your data after account recovery"
+      ],
+      "Ask your organisation admin to setup Gateways.": [
+        "Ask your organization admin to set up Gateways."
+      ],
+      "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control.": [
+        "Dedicated servers with dedicated IP addresses can be added to private gateways to enable fine-tuned access control."
+      ],
+      "Event invitations and RSVPs will be sent in this language.": [
+        "Event invitations and responses will be sent in this language."
+      ],
+      "If you lose your password and need to reset your account, ${ boldImperative } that you have an ${ boldAccountRecovery } in place.": [
+        "If you lose your password and need to recover your account, ${ boldImperative } that you have an ${ boldAccountRecovery } in place."
+      ],
+      "If you lose your password and need to reset your account, ${ boldImperative } that you have both an ${ boldAccountAndRecovery } in place, otherwise you might not be able to access any of your emails, contacts, or files.": [
+        "If you lose your password and need to recover your account, ${ boldImperative } that you have both an ${ boldAccountAndRecovery } in place, otherwise you might not be able to access any of your emails, contacts, or files."
+      ],
+      "Invite successfully sent": [
+        "Invite sent",
+        "Invites sent"
+      ],
+      "Lean more about gateways": [
+        "Learn more about Gateways"
+      ],
+      "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for business users with custom domains.": [
+        "SMTP submission allows 3rd-party services or devices to send email through ${ MAIL_APP_NAME } for your custom domain addresses. This feature is only available to ${ BRAND_NAME } for Business users with custom domains."
+      ],
+      "The link to report that that you didn't set up a ${ BRAND_NAME } Account has expired. Please get in touch with our support team to resolve this issue.": [
+        "The link to report that you didn't set up a ${ BRAND_NAME } Account has expired. Please get in touch with our support team to resolve this issue."
+      ],
+      "Tor": [
+        "Tor"
+      ],
+      "You can enable authentication sign in to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts.": [
+        "You can enable authentication logs to see when your account is accessed, and from which IP. We will record the IP address that accesses the account and the time, as well as failed attempts."
+      ],
+      "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device-recovery information.": [
+        "You won’t be able to recover locked data using your downloaded recovery files. This will also void trusted device recovery information."
+      ]
+    },
+    "Label": {
+      "Synchronize with system": [
+        "Sync with system"
+      ]
+    },
+    "Link": {
+      "Paypal without credit card": [
+        "PayPal without credit card"
+      ]
+    },
+    "Metadata title": {
+      "Private and secure email, no credit card required": [
+        "Private and secure email, no bank card required"
+      ]
+    },
+    "new_plans: feature": {
+      "Tor over VPN": [
+        "TOR over VPN"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control": [
+        "Dedicated servers with dedicated IP addresses can be added to private gateways to enable fine-tuned access control"
+      ],
+      "Personalize your email signature with logos, images, social media icons, links to your contact details, and more": [
+        "Personalize your email signature with logos, images, social media icons, links to your contact details, and more"
+      ],
+      "Route your internet traffic through the Tor network with a single click": [
+        "Route your internet traffic through the TOR network with a single click"
+      ]
+    },
+    "Oauth instructions video alternative": {
+      "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Agenda.": [
+        "Select what ${ BRAND_NAME } can access: view your email messages and settings, view and download your contacts, view and download all agendas you access from Google Calendar."
+      ]
+    },
+    "session_recovery:initiation:info": {
+      "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
+        "You can check the status of your request at any time ${ accountAndPasswordSectionLink } of the settings."
+      ]
+    },
+    "session_recovery:initiation:link": {
+      "account and password section": [
+        "in the Account and password section"
+      ]
+    },
+    "Subscription change warning": {
+      "Just sign in to your Apple App Store account, then press ${ subscriptions }.": [
+        "Just sign in to your Apple App Store account, then select ${ subscriptions }."
+      ]
+    },
+    "Success": {
+      "If you entered a valid recovery email we will send you an email with your usernames in the next minute.": [
+        "You will receive your username via email within a minute if you entered a valid recovery email address."
+      ],
+      "If you entered a valid recovery phone we will send you an sms with your usernames in the next minute.": [
+        "You will receive your username via SMS within a minute if you entered a valid recovery phone number."
+      ]
+    },
+    "Title": {
+      "Personalise your e-mail footer": [
+        "Personalize your e-mail footer"
+      ]
+    },
+    "Tooltip": {
+      "Sets the following footer in the emails you send: ${ signature } The link points to your referral link. The footer will appear below your signature. You can personalise your signature anytime in the settings.": [
+        "Sets the following footer in the emails you send: ${ signature } The link points to your referral link. The footer will appear below your signature. You can personalize your signature anytime in the settings."
+      ]
+    },
+    "Tor out of date": {
+      "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
+        "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Access to Secure Core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more."
+      ]
+    },
+    "Warning": {
+      "Your recovery file is outdated. It can't recover new data if you reset your account again.": [
+        "Your recovery file is outdated. It can't recover new data if you reset your password again."
+      ],
+      "Your recovery phrase is outdated. It can't recover new data if you reset your account again.": [
+        "Your recovery phrase is outdated. It can't recover new data if you reset your password again."
+      ]
+    }
+  }
+}

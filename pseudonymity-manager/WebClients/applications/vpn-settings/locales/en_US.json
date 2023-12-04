@@ -1,0 +1,104 @@
+{
+  "headers": {
+    "plural-forms": "nplurals=2; plural=(n != 1);",
+    "language": "en_US"
+  },
+  "contexts": {
+    "Action": {
+      "Ok": [
+        "OK"
+      ]
+    },
+    "Error": {
+      "You must activate your organization keys. Without activation you will not be able to create or access non-private users.": [
+        "To create non-private users and access their accounts, you'll need to activate your organization keys."
+      ]
+    },
+    "familyOffer_2023:Action": {
+      "Invite member to your family": [
+        "Invite a user"
+      ]
+    },
+    "familyOffer_2023:Family plan": {
+      "Manage addresses.": [
+        "Manage addresses"
+      ]
+    },
+    "Info": {
+      "(${ serverPrice } /month)": [
+        "(${ serverPrice }/month)"
+      ],
+      "Ask your organisation admin to setup Gateways.": [
+        "Ask your organization admin to set up Gateways."
+      ],
+      "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control.": [
+        "Dedicated servers with dedicated IP addresses can be added to private gateways to enable fine-tuned access control."
+      ],
+      "Lean more about gateways": [
+        "Learn more about Gateways"
+      ],
+      "Tor": [
+        "Tor"
+      ]
+    },
+    "Label": {
+      "Synchronize with system": [
+        "Sync with system"
+      ]
+    },
+    "Link": {
+      "Paypal without credit card": [
+        "PayPal without credit card"
+      ]
+    },
+    "new_plans: feature": {
+      "Tor over VPN": [
+        "TOR over VPN"
+      ]
+    },
+    "new_plans: tooltip": {
+      "Dedicated servers with dedicated IP address(es) can be added to private gateways to enable fine-tuned access control": [
+        "Dedicated servers with dedicated IP addresses can be added to private gateways to enable fine-tuned access control"
+      ],
+      "Personalize your email signature with logos, images, social media icons, links to your contact details, and more": [
+        "Personalize your email signature with logos, images, social media icons, links to your contact details, and more"
+      ],
+      "Route your internet traffic through the Tor network with a single click": [
+        "Route your internet traffic through the TOR network with a single click"
+      ]
+    },
+    "session_recovery:initiation:info": {
+      "You can check the status of your request at any time in the ${ accountAndPasswordSectionLink } of the settings.": [
+        "You can check the status of your request at any time ${ accountAndPasswordSectionLink } of the settings."
+      ]
+    },
+    "session_recovery:initiation:link": {
+      "account and password section": [
+        "in the Account and password section"
+      ]
+    },
+    "Subscription change warning": {
+      "Just sign in to your Apple App Store account, then press ${ subscriptions }.": [
+        "Just sign in to your Apple App Store account, then select ${ subscriptions }."
+      ]
+    },
+    "Success": {
+      "If you entered a valid recovery email we will send you an email with your usernames in the next minute.": [
+        "You will receive your username via email within a minute if you entered a valid recovery email address."
+      ],
+      "If you entered a valid recovery phone we will send you an sms with your usernames in the next minute.": [
+        "You will receive your username via SMS within a minute if you entered a valid recovery phone number."
+      ]
+    },
+    "Tor out of date": {
+      "This version of Tor Browser is not supported. Please update to the latest ${ stableRelease }": [
+        "This version of TOR Browser is not supported. Please update to the latest ${ stableRelease }"
+      ]
+    },
+    "vpn_2step: tooltip": {
+      "Access to Secure core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more.": [
+        "Access to Secure Core servers, fast P2P/BitTorrent downloads, Tor over VPN, and more."
+      ]
+    }
+  }
+}
