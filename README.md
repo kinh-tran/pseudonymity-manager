@@ -2,9 +2,9 @@
 
 ## Getting Started
 You will need to set up the following:
-- ProtonMail WebClients
-- ProtonPass Extension
-- ProtonVPN-CLI
+- [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/applications)
+- [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension)
+- [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
 
 ## How to run the server
 Change directories to following: 
