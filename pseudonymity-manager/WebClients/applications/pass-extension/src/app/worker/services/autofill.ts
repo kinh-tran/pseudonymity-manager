@@ -25,7 +25,6 @@ import { parseSender, parseUrl } from '@proton/pass/utils/url/parser';
 import noop from '@proton/utils/noop';
 // import { useLocation } from 'react-router-dom';
 // import { useEffect } from 'react';
-import Cookie from 'js-cookie'
 
 export const createAutoFillService = () => {
     const getAutofillCandidates = (options: SelectAutofillCandidatesOptions): SafeLoginItem[] =>
@@ -195,28 +194,28 @@ export const createAutoFillService = () => {
                     // browser.webNavigation.onBeforeNavigate.removeListener(onBeforeNavigateCallback);
                     const items = getAutofillCandidates(parseUrl(details.url));
                     const myCountry = items[0].note;
+                    console.log(myCountry);
                     // if (items.length > 0 && current_details.url !== details.url) {
-                    if (items.length > 0 && details.parentFrameId <= details.frameId) {
-                        fetch('http://localhost:3000/connect/' + myCountry)
-                            .then(data => {
-                                console.log('API Response:', data);
-                                // browser.tabs.update(details.tabId, { url: details.url })
-                                //     .catch(error => {
-                                //         console.error('Error:', error);
-                                //     });
-                                // apiCallComplete = true;
-                            })
-                            .catch(error => {
-                                console.error('API Error:', error);
-                                // You may handle errors and decide whether to allow the navigation or not
-                            });
-                            // Block the navigation by canceling the request
-                            // if (!apiCallComplete) {
-                            //     return { cancel: true };
-                            // }
-                        Cookie.set('location_cookie', details.url, {expires: 0.5})
-                        return {};
-                    }
+                    // if (items.length > 0 && details.parentFrameId <= details.frameId) {
+                    //     fetch('http://localhost:3000/connect/' + myCountry)
+                    //         .then(data => {
+                    //             console.log('API Response:', data);
+                    //             // browser.tabs.update(details.tabId, { url: details.url })
+                    //             //     .catch(error => {
+                    //             //         console.error('Error:', error);
+                    //             //     });
+                    //             // apiCallComplete = true;
+                    //         })
+                    //         .catch(error => {
+                    //             console.error('API Error:', error);
+                    //             // You may handle errors and decide whether to allow the navigation or not
+                    //         });
+                    //         // Block the navigation by canceling the request
+                    //         // if (!apiCallComplete) {
+                    //         //     return { cancel: true };
+                    //         // }
+                    //     return {};
+                    // }
                 },
             );
     //     }, 

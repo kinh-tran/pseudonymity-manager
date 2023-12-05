@@ -12,8 +12,7 @@ You will need to set up the following depenencies:
 - To set up [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli) install:
   - OpenVPN:
     - If on Mac: `brew install openvpn`
-
-  - Python
+  - Python3
 
 You will also need to install [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
 ```bash
@@ -24,21 +23,19 @@ sudo pip3 install protonvpn-cli --upgrade
 ## Clone the project
 You will need:
 - git
-Clone the Project
 ```bash
 gh repo clone kinh-tran/pseudonymity-manager
 ```
 
-## How to run the server
+## Run the server
 Change directories to following: 
-`pseudonymity-manager/Server`
+`cd pseudonymity-manager/pseudonymity-manager/Server`
 
 Install the dependencies listed in ProtonVPN-CLI if you have not yet. 
 
 Run
 
 ```bash
-npm i express
 sudo node index.js
 ```
 Enter your credentials 
@@ -48,15 +45,16 @@ Enter your credentials
 
 ## Run the extension on the new terminal window
 
-Please note that all commands should be run from the following directory: 
-`pseudonymity-manager/WebClients/applications/pass-extension`
+Change directories to following: 
+`cd pseudonymity-manager/pseudonymity-manager/WebClients/applications/pass-extension`
 
 Install the dependencies listed in ProtonMail WebClients and ProtonPass Extension if you have not yet. 
 
-On Mac, please first install `mkcert` with `brew install mkcert` (brew can be installed on https://brew.sh/) then:
+On Mac, please first install `mkcert` with `brew install mkcert` (brew can be installed on https://brew.sh/) if you have not yet.
 
 ```bash
 yarn install
+yarn install:additional-tools
 ```
 
 ### For Chromium
