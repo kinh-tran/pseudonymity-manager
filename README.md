@@ -1,10 +1,34 @@
 # pseudonymity-manager
 
 ## Getting Started
-You will need to set up the following:
+You will need to set up the following depenencies:
 - [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/applications)
+```bash
+# Clone the project
+git clone https://github.com/ProtonMail/WebClients.git
+git clone git@github.com:ProtonMail/WebClients.git
+```
 - [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension)
+If on Mac:
+```bash
+brew install mkcert
+```
+
 - [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
+Install OpenVPN:
+If on Mac:
+```
+brew install openvpn
+brew install 
+```
+
+Install Python:
+
+Install ProtonVPN-CLI
+```bash
+sudo pip3 install protonvpn-cli
+sudo pip3 install protonvpn-cli --upgrade
+```
 
 ## How to run the server
 Change directories to following: 
@@ -16,8 +40,9 @@ Run
 
 ```bash
 npm i express
-node index.js
+sudo node index.js
 ```
+Enter your credentials 
 
 ## Open a new terminal window
 
@@ -33,7 +58,6 @@ On Mac, please first install `mkcert` with `brew install mkcert` (brew can be in
 
 ```bash
 yarn install
-yarn install:devtools
 ```
 
 ### For Chromium
