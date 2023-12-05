@@ -15,7 +15,7 @@ You will need to set up the following depenencies:
 
   - Python
 
-  - ProtonVPN-CLI
+You will also need to install [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
 ```bash
 sudo pip3 install protonvpn-cli
 sudo pip3 install protonvpn-cli --upgrade
