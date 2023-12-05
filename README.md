@@ -1,36 +1,32 @@
 # pseudonymity-manager
 
-## Getting Started
-```bash
-# Clone the project
-gh repo clone kinh-tran/pseudonymity-manager
-```
+## Getting started
 You will need to set up the following depenencies:
-- [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/)
-  - Install Node.js LTS
+- To set up [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/) install:
+  - Node.js LTS
   - Yarn 3
-  - git
 
-- [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension)
-  - If on Mac:
-```bash
-brew install mkcert
-```
+- To set up [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension) install:
+  - If on Mac: `brew install mkcert`
 
-- [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
-  - Install OpenVPN:
-  - If on Mac:
-```
-brew install openvpn
-brew install 
-```
+- To set up [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli) install:
+  - OpenVPN:
+    - If on Mac: `brew install openvpn`
 
-  - Install Python:
+  - Python
 
-  - Install ProtonVPN-CLI
+  - ProtonVPN-CLI
 ```bash
 sudo pip3 install protonvpn-cli
 sudo pip3 install protonvpn-cli --upgrade
+```
+
+## Clone the project
+You will need:
+- git
+Clone the Project
+```bash
+gh repo clone kinh-tran/pseudonymity-manager
 ```
 
 ## How to run the server
@@ -50,7 +46,7 @@ Enter your credentials
 ## Open a new terminal window
 
 
-## How to run the extension
+## Run the extension on the new terminal window
 
 Please note that all commands should be run from the following directory: 
 `pseudonymity-manager/WebClients/applications/pass-extension`
