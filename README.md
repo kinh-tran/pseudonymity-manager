@@ -5,24 +5,23 @@ You will need to set up the following depenencies:
 - [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/applications)
 ```bash
 # Clone the project
-git clone https://github.com/ProtonMail/WebClients.git
-git clone git@github.com:ProtonMail/WebClients.git
+gh repo clone kinh-tran/pseudonymity-manager
 ```
 - [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension)
-If on Mac:
+- - If on Mac:
 ```bash
 brew install mkcert
 ```
 
 - [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
-Install OpenVPN:
-If on Mac:
+- - Install OpenVPN:
+- - If on Mac:
 ```
 brew install openvpn
 brew install 
 ```
 
-Install Python:
+- - Install Python:
 
 Install ProtonVPN-CLI
 ```bash
