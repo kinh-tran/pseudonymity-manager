@@ -1,29 +1,33 @@
 # pseudonymity-manager
 
 ## Getting Started
-You will need to set up the following depenencies:
-- [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/applications)
 ```bash
 # Clone the project
 gh repo clone kinh-tran/pseudonymity-manager
 ```
+You will need to set up the following depenencies:
+- [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/)
+  - Install Node.js LTS
+  - Yarn 3
+  - git
+
 - [ProtonPass Extension](https://github.com/ProtonMail/WebClients/tree/main/applications/pass-extension)
-- - If on Mac:
+  - If on Mac:
 ```bash
 brew install mkcert
 ```
 
 - [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
-- - Install OpenVPN:
-- - If on Mac:
+  - Install OpenVPN:
+  - If on Mac:
 ```
 brew install openvpn
 brew install 
 ```
 
-- - Install Python:
+  - Install Python:
 
-Install ProtonVPN-CLI
+  - Install ProtonVPN-CLI
 ```bash
 sudo pip3 install protonvpn-cli
 sudo pip3 install protonvpn-cli --upgrade
