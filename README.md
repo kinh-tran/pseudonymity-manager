@@ -1,6 +1,10 @@
 # pseudonymity-manager
 
 ## Getting started
+You will need to create the following accounts:
+- ProtonPass
+- ProtonVPN
+
 You will need to set up the following depenencies:
 - To set up [ProtonMail WebClients](https://github.com/ProtonMail/WebClients/tree/main/) install:
   - Node.js LTS
@@ -11,7 +15,7 @@ You will need to set up the following depenencies:
 
 - To set up [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli) install:
   - OpenVPN:
-    - If on Mac: `brew install openvpn`
+    - If on Mac: `brew install openvpn` then `export PATH=$(brew --prefix openvpn)/sbin:$PATH`
   - Python3
 
 You will also need to install [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli)
@@ -19,6 +23,14 @@ You will also need to install [ProtonVPN-CLI](https://github.com/Rafficer/linux-
 sudo pip3 install protonvpn-cli
 sudo pip3 install protonvpn-cli --upgrade
 ```
+
+Then initialize [ProtonVPN-CLI](https://github.com/Rafficer/linux-cli-community#protonvpn-cli) with your ProtonVPN OpenVPN login credentials.
+```
+sudo protonvpn init
+```
+
+Your ProtonVPN OpenVPN credentials can be found at: (https://account.protonvpn.com/account).
+You will need a ProtonVPN account to do this.
 
 ## Clone the project
 You will need:
@@ -36,12 +48,11 @@ Install the dependencies listed in ProtonVPN-CLI if you have not yet.
 Run
 
 ```bash
-sudo node index.js
+node index.js
 ```
-Enter your credentials 
+Enter your credentials if prompted. 
 
 ## Open a new terminal window
-
 
 ## Run the extension on the new terminal window
 
@@ -67,3 +78,5 @@ yarn start:prod
 ```
 
 After that, the build is available in `dist/` directory that you can install in Chromium by going to [extension page](chrome://extensions/), enable the developer mode, click on "Load Unpacked" and choose the `dist/` directory here.
+
+Sign into your ProtonPass account. You will need a ProtonPass account to do this.
