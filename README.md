@@ -36,7 +36,7 @@ You will need a ProtonVPN account to do this.
 You will need:
 - git
 ```bash
-gh repo clone kinh-tran/pseudonymity-manager
+git clone https://github.com/kinh-tran/pseudonymity-manager.git
 ```
 
 ## Run the server
